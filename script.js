@@ -10,14 +10,14 @@ let para = document.getElementById("timer");
 		let am_pm;
 
 	if(hour == 0){
-		hr = 12
+		hour = 12
 		am_pm = "PM"
 	}else if(hour < 12){
 		am_pm = "AM"
 	}else if(hour == 12){
 		am_pm = "PM"
 	}else if(hour > 12){
-		hr = hr - 12
+		hour = hour - 12
 		am_pm = "PM"
 	}
 
